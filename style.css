@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.satu {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #9b59b6;
+    top: 0;
+    left: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.hewan-kurban {
+    margin-bottom: 40px;
+}
+
+.hewan-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hewan-item {
+    border-radius: 50%;
+    padding: 30px;
+    margin: 20px;
+    width: 150px; /* Diameter lingkaran */
+    height: 150px; /* Diameter lingkaran */
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hewan-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.sapi {
+    background-color: #ffcccb; 
+}
+
+.kambing {
+    background-color: #add8e6;
+}
+
+.domba {
+    background-color: #90ee90; 
+}
+
+.informasi {
+    background-color: #f1c40f;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #8e44ad;
+    color: white;
+}
